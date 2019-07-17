@@ -31,9 +31,15 @@ Plugin 'itchyny/lightline.vim'
 Plugin 'townk/vim-autoclose'
 Plugin 'tpope/vim-commentary'
 Plugin 'kien/ctrlp.vim'
-Plugin 'sirver/ultisnips'
+
 Plugin 'prettier/vim-prettier'
+
+"Snippets Plugins
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
+
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
