@@ -18,10 +18,14 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
-"Comienza lista de Plugins
+"Plugins
 
-"Utilidades
+"Dir tree
 Plugin 'scrooloose/nerdtree'
+
+"Emmet
+Plugin 'mattn/emmet-vim'
+
 Plugin 'flazz/vim-colorschemes'
 Plugin 'itchyny/lightline.vim'
 Plugin 'townk/vim-autoclose'
@@ -30,6 +34,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'sirver/ultisnips'
 Plugin 'prettier/vim-prettier'
 Plugin 'honza/vim-snippets'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
